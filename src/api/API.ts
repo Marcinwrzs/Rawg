@@ -19,7 +19,7 @@ class API {
       });
       return response.data;
     } catch (error) {
-      console.error("Błąd podczas pobierania gier:", error);
+      console.error(error);
       throw error;
     }
   }

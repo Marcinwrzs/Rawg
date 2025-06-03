@@ -2,7 +2,6 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import { NavLink } from "react-router-dom";
 import { sideNavItems } from "@/components/SideNav/SideNavItems";
-import "./SideNav.css";
 
 const SideNav: React.FC = () => {
   const { t } = useTranslation();

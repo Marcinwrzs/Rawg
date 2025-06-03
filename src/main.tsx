@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import { routes } from "@/routes";
 import { Root } from "@/root";
 import "@/index.css";
+import "./i18n";
 
 const router = createBrowserRouter([
   {

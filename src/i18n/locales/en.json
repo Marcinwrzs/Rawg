@@ -1,0 +1,19 @@
+{
+  "nav": {
+    "home": "Home",
+    "reviews": "Reviews",
+    "userPanel": "mwrzs",
+
+    "releasesHeader": "New Releases",
+    "newReleases": "New Releases",
+    "last30": "Last 30 days",
+    "thisWeek": "This week",
+    "nextWeek": "Next week",
+    "calendar": "Release calendar",
+
+    "topHeader": "Top",
+    "bestOfYear": "Best of the year",
+    "popular2024": "Popular in 2024",
+    "top250": "All time top 250"
+  }
+}

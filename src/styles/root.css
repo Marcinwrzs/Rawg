@@ -1,0 +1,16 @@
+.root-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.root-content-wrapper {
+  display: flex;
+  flex: 1;
+}
+
+.root-main {
+  flex: 1;
+  padding: 1rem;
+  overflow-y: auto;
+}

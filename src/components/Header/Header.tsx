@@ -1,18 +1,11 @@
 import React from "react";
+import SearchBar from "../Searchbar/Searchbar";
 
 const Header: React.FC = () => {
   return (
-    <header
-      style={{
-        height: "80px",
-        background: "#333",
-        color: "#fff",
-        display: "flex",
-        alignItems: "center",
-        padding: "0 2rem",
-      }}
-    >
-      <h1 style={{ fontSize: "18px", margin: 0 }}>RAWG</h1>
+    <header className="header">
+      <h1 className="header-title">RAWG</h1>
+      <SearchBar />
     </header>
   );
 };

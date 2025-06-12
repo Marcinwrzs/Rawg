@@ -1,10 +1,13 @@
 import React from "react";
 import SearchBar from "../Searchbar/Searchbar";
+import { NavLink } from "react-router-dom";
 
 const Header: React.FC = () => {
   return (
     <header className="header">
-      <h1 className="header-title">RAWG</h1>
+      <NavLink to="/" className="header-title">
+        RAWG
+      </NavLink>
       <SearchBar />
     </header>
   );

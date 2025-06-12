@@ -5,11 +5,18 @@
   align-items: center;
   justify-content: flex-start;
   padding: 0 2rem;
+  font-weight: bold;
 }
 
 .header-title {
-  font-size: 32px;
+  font-size: 18px;
   margin: 0;
+  color: white;
+  text-decoration: none;
+}
+
+.header-title:hover {
+  text-decoration: none;
 }
 
 .search-bar-wrapper {

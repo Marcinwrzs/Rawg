@@ -11,18 +11,23 @@ const axiosInstance = axios.create({
 
 class API {
   async getAllGames(params = {}) {
-    try {
-      const response = await axiosInstance.get("/games", {
-        params: {
-          ...params,
-        },
-      });
-      return response.data;
-    } catch (error) {
-      console.error(error);
-      throw error;
-    }
+    const response = await axiosInstance.get("/games", { params });
+    return response.data;
   }
+
+  // async getAllGames(params = {}) {
+  //   try {
+  //     const response = await axiosInstance.get("/games", {
+  //       params: {
+  //         ...params,
+  //       },
+  //     });
+  //     return response.data;
+  //   } catch (error) {
+  //     console.error(error);
+  //     throw error;
+  //   }
+  // }
 }
 
 export const api = new API();

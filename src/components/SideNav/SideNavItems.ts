@@ -1,16 +1,14 @@
-import HomeIcon from "@mui/icons-material/HomeRounded";
-import ReviewsIcon from "@mui/icons-material/RateReviewRounded";
 import UserIcon from "@mui/icons-material/PersonRounded";
 import StarIcon from "@mui/icons-material/StarBorderRounded";
 import TodayIcon from "@mui/icons-material/TodayRounded";
 
 export const sideNavItems = [
-  { type: "headerLink", label: "nav.home", to: "/", icon: HomeIcon },
+  { type: "headerLink", label: "nav.home", to: "/", icon: null },
   {
     type: "headerLink",
     label: "nav.reviews",
     to: "/reviews",
-    icon: ReviewsIcon,
+    icon: null,
   },
   { type: "headerLink", label: "nav.userPanel", to: "/user", icon: UserIcon },
 
@@ -54,4 +52,5 @@ export const sideNavItems = [
     icon: StarIcon,
   },
   { type: "link", label: "nav.top250", to: "/top/250", icon: StarIcon },
+  { type: "headerLink", label: "nav.games", to: "/games", icon: null },
 ];
